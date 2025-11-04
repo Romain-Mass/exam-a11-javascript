@@ -1,5 +1,5 @@
 function getReduction(price, age) {
-	if (age < 6) {
+	if (age <= 5) {
         let price = 0
         return price 
     }
